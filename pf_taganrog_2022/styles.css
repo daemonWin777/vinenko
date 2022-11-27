@@ -1,0 +1,291 @@
+
+/* ********************************************* HEADER ********************************************** */
+
+body{
+    background-color: lightgray;
+    cursor: pointer;
+}
+ header{
+    height: 160px;
+    width: 100%;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(148,187,233,1) 100%);
+     border: 5px solid lightblue;
+    box-sizing: border-box;
+ }
+
+ .hdr{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   width: 100%;
+   text-align: center;
+ 
+}
+.first-item{
+  margin-right: 25px;
+  
+}
+.second-item{
+  margin-top: 10px;
+  margin-right: 25px;
+}
+/* **************************************** HEADER  всех страниц **********************************/
+
+.header-page{
+    text-align: center;
+}
+
+/*   **************************************** ССЫЛКИ ********************************************* */
+
+.second-item img:hover{
+   border: none;
+}
+a{
+   text-decoration: none;
+   
+}
+
+ /* ************************************ НАВИГАЦИЯ HEADER ************************************ */
+
+.nav, .nav-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav div{
+    padding:3px 10px 3px 10px;
+    /*background-color: aquamarine;*/
+    color: darkviolet;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.nav-page div{
+
+    padding:3px 10px 3px 10px;
+    /*background-color: aquamarine;*/
+    color: darkviolet;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.nav div:hover{
+    border: 3px solid red;
+    background-color: aqua;
+    font-size: 25px;
+}
+.nav-page div:hover{
+    border: 3px solid red;
+    background-color: aqua;
+    font-size: 25px;
+}
+
+
+
+
+/* ************************************** ФОН ГЛАВНОЙ СТРАНИЦЫ ********************************** */
+
+main{
+  background-color: lightgray;
+  position: relative;
+   margin-top: 5px;
+   background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    width: 100%;
+    border: 5px solid lightblue;
+    box-sizing: border-box;
+}
+
+ 
+
+/* ******************************* ФОТО-ПРЕВЬЮ НА ГЛАВНОЙ СТРАНИЦЕ ******************************* */
+.row{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+  
+  }
+.c-6 {
+   flex-direction: row;
+   text-align: center;
+  
+}
+.pr-item-img{
+   opacity: 0.8;
+
+ }
+.pr-item-img img{
+  border-radius: 10%;
+}
+
+ 
+
+.pr-item-img-main img{
+border: none;
+
+}
+.pr-item-img div{
+color: black;
+font-size: 16px;
+font-family:'PT Sans', sans-serif;
+font-weight: 700;
+}
+
+.pr-item-img a img:hover{
+    border: 5px solid blue;
+}
+/* *********************************** ТИТУЛЬНАЯ ФРАЗА НА ОСНОВНОЙ СТРАНИЦЕ **************************** */
+.slogan-container{
+    border: 1px solid blue;
+    padding: 10px 172px 10px 172px;
+    background-color: aquamarine;
+}
+.slogan p{
+    margin: auto;
+    font-size: 35px;
+    font-style: italic;
+    color: darkblue;
+    text-align: left;
+    }
+
+.slogan h6{
+    margin: auto;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: darkblue;
+     text-align: right;
+    }
+
+/* ******************************************* КНОПКИ *********************************************** */
+
+/* ******************************* КНОПКА ПЕРЕХОДА НА ГЛАВНУЮ СТРАНИЦУ ****************************** */
+.button-page{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-display: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    display: block;
+    background-color: lightsalmon;
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+    border-radius: 45px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: fixed;
+    bottom: 30px;
+}
+.button-page:hover{
+    color: blue;
+    background-color: grey;
+    
+}
+
+
+ /* ************************************ КНОПКА ЗАПУСКА СЛАЙД-ШОУ ***************************** */
+
+.slide-show{
+position: relative;
+}
+
+.button-slide{
+    
+    font-display: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    display: block;
+    background-color: lightsalmon;
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+    border-radius: 45px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: fixed;
+    bottom: 115px;
+    left: 15px;
+
+}
+.button-slide:hover{
+    color: blue;
+    background-color: grey;
+}
+
+/* ********************************КНОПКА ВОЗВРАТА ВВЕРХ ПО ОСНОВНОЙ СТРАНИЦЕ *************************** */
+.bottom-btn {
+    
+    font-display: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    display:block;
+    background-color: lightgray;
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+    border-radius: 45px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.bottom-btn:hover{
+    color: blue;
+    background-color: grey;
+}
+
+    /* ******************************СТРАНИЦЫ 1 - 6 ВНУТРИ САЙТА ********************************** */
+
+
+.page{
+   display: flex;
+}
+
+.img_page{
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+
+/* ********************************************* FOOTER ********************************************* */
+.footer div{
+   display: flex;
+}
+.ftr-container{
+   font-size: 12px;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+   height: 40px;
+   width: 100%;
+   padding-right: 5px;
+   padding-bottom: 5px;
+   background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(148,187,233,1) 100%);
+   box-sizing: border-box;
+   border: 5px solid lightblue;
+   margin-top: 5px;
+}
+/* **********************************адаптация текста для мин\экранов ******************************* */
+
+

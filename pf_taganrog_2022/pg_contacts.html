@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <!--Корректное отображение страницы на экранах любого размера-->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--Корректное отображение на старых браузерах-->
+   <meta http-equiv="X-UA-Compatable" content="IE-edge">
+   <!--Подключение стилей-->
+   <link rel="stylesheet"  type="text/css" href="styles.css">
+   <!--Нормализация стилей-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+   <!-- карта -->
+   <link rel="stylesheet" type="text/css" href=" https://yandex.ru/maps/?um=constructor%3A1210e6322c092b82a7b0f7c599368360fa55c333df14dc58cdffa71525fcb826&source=constructorLink">
+
+   <style type="text/css">
+
+   
+      }
+      .map{
+         width:60%;
+         border: 1px solid black;
+         padding: 5px;
+         margin: 5px;
+      
+      }
+      form {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      background-color: lightgray;
+       justify-content: center;
+      }
+     
+      .row-contacts, .container-mb-3 {
+         width: 45%;
+      }
+     .row-contacts, .col-contacts, .mb-3, .container-mb-3{
+      border: 1px solid black;
+         padding: 5px;
+         margin: 5px;
+       }
+       .button-contacts{
+        padding: 10px;
+      }
+      div a{
+         text-decoration: ;
+      }
+      
+       .icon-contacts{
+         display: flex;
+         justify-content: center;
+         background-color: white;
+      }
+        .button-contacts{
+         display: flex;
+         justify-content: center;
+       }
+
+
+   </style>
+
+   <title>Контакты</title>
+</head>
+<body>
+    <header class="header-page">
+      <br>
+      <h2>Таганрог на карте</h2>
+      <br>
+      <div class="nav">
+            <div class="main-nav"><a href="index.html">На главную</a></div>
+            
+            <div> <a href="facts-page.html">Факты</a></div>
+            <div> <a href="pg_contacts.html">Контакты</a></div>
+            <div> <a href="http://project6428617.tilda.ws">Обо мне</a></div>
+        </div> 
+
+   </header>
+   <div class="container-map">
+       <div class="map">
+         <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1210e6322c092b82a7b0f7c599368360fa55c333df14dc58cdffa71525fcb826&amp;width=100%&amp;height=495px&amp;lang=ru_RU&amp;scroll=true"></script>
+      </div>
+      
+   <div class="container-form"> 
+      <form action="" method="post">
+
+      <div class="row-contacts">
+         
+         <div class="col-contacts">
+            <input type="text" class="form-control" placeholder="Имя" aria-label="First name">
+         </div>
+    
+         <div class="col-contacts">
+            <input type="text" class="form-control" placeholder="Фамилия" aria-label="Last name">
+         </div>
+        
+         <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+         </div>   
+      </div>
+     
+
+   <div class="container-mb-3">   
+         <div class="mb-3">
+               <label for="exampleFormControlTextarea1" class="form-label">Ваш комментарий</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+         </div>
+
+         <div class="button-contacts">
+            <label><button type="submit">Отправить</button></label>
+         </div>
+          
+         <div class="icon-contacts">
+            <a href="https://ok.ru/?mt_click_id=mt-koydy6-1669407629-3125400350&mt_sub1=mail.ru"><img src="favicon/ok.png" alt="" width="40px"></a>
+            <a href="https://vk.com/"><img src="favicon/vk.gif" alt="" width="40px"></a>
+            <a href="https://telegram.org/"><img src="favicon/tel.gif" alt="" width="40px"></a>
+         </div>
+   </div>
+   </form> 
+   </div>    
+   </div>
+<br>
+
+<a href="./index.html" class="button-page">&larr;На главную</a> 
+
+       
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+   <script src="main.js"></script>
+</body>
+</html>
